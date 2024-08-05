@@ -16,7 +16,7 @@ import axios from 'axios';
  * 
  * @type {string}
  */
-const API_URL = 'http://www.omdbapi.com/?i=tt3896198&apikey=3f48c3cc';
+const API_URL = 'https://www.omdbapi.com/?i=tt3896198&apikey=3f48c3cc';
 
 /**
  * App Component Function
