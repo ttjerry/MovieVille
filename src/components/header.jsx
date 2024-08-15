@@ -1,12 +1,14 @@
 import React from 'react';
+import { useState } from 'react';
 import '../App.css'
 
 const Headed = () => {
 
+	const [menuToggle, setToggle] = useState(false)
+
     return (
 			<nav className='Nav'>
-					<a><img src="./assets/logo.png" alt=""></img></a>
-					<button type="button">
+					<button type="button" >
 						<span className="icon-bar"></span>
 						<span className="icon-bar"></span>
 						<span className="icon-bar"></span>
@@ -21,7 +23,7 @@ const Headed = () => {
 							<li><a>Blog</a></li>
 							<li><a>Contact</a></li>
 						</ul>
-					</div>
+				</div>
 			</nav>
     );
 
